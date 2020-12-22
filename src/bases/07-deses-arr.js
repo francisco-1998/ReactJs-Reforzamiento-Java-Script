@@ -16,11 +16,11 @@ console.log(letras, numeros);
 // Tarea
 // 1. el primer valor del arr se llamará nombre
 // 2. se llamará setNombre
-const useState = ( valor ) => {
+const getState = ( valor ) => {
     return [ valor, ()=>{ console.log('Hola Mundo') } ];
 }
 
-const [ nombre, setNombre ] = useState( 'Goku' );
+const [ nombre, setNombre ] = getState( 'Goku' );
 
 console.log( nombre );
 setNombre();

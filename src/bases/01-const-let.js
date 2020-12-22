@@ -1,8 +1,8 @@
 
 // Variables y Constantes
 
-const nombre = 'Fernando';
-const apellido = 'Herrera';
+const nombre = 'Francisco';
+const apellido = 'Marin';
 
 let valorDado = 5;
 valorDado = 4;
